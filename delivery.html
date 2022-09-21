@@ -45,33 +45,26 @@
 		<nav class="colorlib-nav">
 			<div class="top-menu">
 				<div class="container">
-					<div class="row">
-						<div class="col-sm-7 col-md-9">
-							<div id="colorlib-logo">
-								<img src="./images/logo.pnj.jpg" width="80" height="80" alt="ALFA REAL">
-								<a href="index.html">ALFA REAL</a>
-							</div>
+					<div class="row justify-content-between">
+						<div class="col-8 col-sm-6 col-md-6 col-lg-4">
+							<a href="index.html"><img class="w-100 h-100" src="./images/site-logo.jpg"></a>
 						</div>
-						<div class="col-sm-5 col-md-3">
-			            <form action="#" class="search-wrap">
-			               <div class="form-group">
-							<ul class="colorlib-social-icons">
+						<div class="col-sm-12 col-md-4">
+							<ul class="colorlib-social-icons ps-3 ps-lg-0">
 								<li><a href="https://wa.me/61420311975"><i class="icon-whatsapp"></i></a></li>
 								<li><a href="https://www.t.me/dilafruz_alfa_real"><i class="icon-telegram"></i></a></li>
 								<li><a href="tel://+61420311975"><i class="icon-phone"></i></a></li>
 								<li><a href="https://mail.google.com/mail/u/0/#search/alfarealdilafruz%40gmail.com"><i class="icon-mail"></i></a></li>
 							</ul>
-			               </div>
-			            </form>
-			        </div>
-		         </div>
+			        	</div>
+		         	</div>
 					<div class="row">
 						<div class="col-sm-12 text-left menu-1">
 							<ul>
-								<li><a href="index.html">ДОМ</a></li>
-								<li><a href="about.html">О НАС</a></li>
-								<li><a href="contact.html">КОНТАКТ</a></li>
-								<li class="active"><a href="delivery.html">ДОСТАВКА</a></li>
+								<li><a href="index.html">home</a></li>
+								<li><a href="about.html">about us</a></li>
+								<li><a href="contact.html">contact</a></li>
+								<li class="active"><a href="delivery.html">delivery</a></li>
 							</ul>
 						</div>
 					</div>
@@ -105,7 +98,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						<p class="bread"><span><a href="index.html">ГЛАВНАЯ</a></span> / <span>Delivery</span></p>
+						<p class="bread"><span><a href="index.html">home</a></span> / <span>Delivery</span></p>
 					</div>
 				</div>
 			</div>
@@ -116,13 +109,11 @@
 				<div class="row row-pb-lg product-detail-wrap">
 					<div class="col-md-12">
 						<div class="product-desc">
-							<h3>УСЛОВИЯ:</h3>
-							<p>1. CIF price до Россия </p>
-							<p>2. Минимум заказ 22 тона </p>
-                            <p>3. Образец бесплатно 100 гр </p>
-							<p>4. Упаковка по желанию покупателя</p>
-                            <h3>УСЛОВИЯ ОПЛАТЫ:</h3>
-							<p>1. Аккредитив.</p>
+							<h3>TERMS:</h3>
+							<h5>(Prices may change in November)</h5>
+							<p>1. Prepayment</p>
+							<p>2. Letter of credit</p>
+                            <p>3. Possible discussion of other methods of payment for the goods by agreement.</p>
 						</div>
 					</div>
 				</div>
@@ -190,8 +181,7 @@
 						<h4>About our product</h4>
 						<div class="colorlib-nav">
 							<div>
-								<img src="./images/logo.pnj.jpg" width="40" height="40" alt="AlFA REAL">
-								<a href="index.html">ALFA REAL</a>
+								<a href="index.html"><img class="w-75 h-75" src="./images/site-logo.jpg"></a>
 							</div>
 						</div>
 						<p>Buy in bulk at a low price. Hurry!</p>
@@ -256,44 +246,6 @@
 	<script src="js/jquery.stellar.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
-	<script>
-		$(document).ready(function(){
-
-		var quantitiy=0;
-		   $('.quantity-right-plus').click(function(e){
-		        
-		        // Stop acting like a button
-		        e.preventDefault();
-		        // Get the field name
-		        var quantity = parseInt($('#quantity').val());
-		        
-		        // If is not undefined
-		            
-		            $('#quantity').val(quantity + 1);
-
-		          
-		            // Increment
-		        
-		    });
-
-		     $('.quantity-left-minus').click(function(e){
-		        // Stop acting like a button
-		        e.preventDefault();
-		        // Get the field name
-		        var quantity = parseInt($('#quantity').val());
-		        
-		        // If is not undefined
-		      
-		            // Increment
-		            if(quantity>0){
-		            $('#quantity').val(quantity - 1);
-		            }
-		    });
-		    
-		});
-	</script>
-
 
 	</body>
 </html>
